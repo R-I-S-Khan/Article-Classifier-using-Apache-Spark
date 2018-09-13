@@ -1,4 +1,4 @@
-This lab was done by the combined effort of -
+This project was done by the combined effort of -
 
 Redwan Ibne Seraj Khan 
 Alex Barganier         
