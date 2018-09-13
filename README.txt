@@ -19,6 +19,7 @@ Afterwards we used Naive Bayes and Random Forest to train a model for our datase
 
 To run the code, download hadoop in a virtual machine.
 Place this repo in home.
+
 Change the paths specified inside the different codes if necessary.
 
 Then go to spark directory and enter the command given below to get the feature engineering output and machine learning model accuracy.
