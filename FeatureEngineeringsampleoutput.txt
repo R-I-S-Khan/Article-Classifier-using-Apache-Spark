@@ -1,0 +1,670 @@
++-----+--------------------+--------------------+--------------------+--------------------+
+|label|             content|               words|         rawFeatures|            features|
++-----+--------------------+--------------------+--------------------+--------------------+
+|    1|DAVOS Switzerland...|[davos, switzerla...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|PARIS Across Euro...|[paris, across, e...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|BRUSSELSAs Europe...|[brusselsas, euro...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|The Standard Poor...|[the, standard, p...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|PARIS Federal pro...|[paris, federal, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|The Standard Poor...|[the, standard, p...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|AOL reported best...|[aol, reported, b...|(50,[0,1,2,3,5,6,...|(50,[0,1,2,3,5,6,...|
+|    1|ECONOMIC REPORTS ...|[economic, report...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|AS January goes g...|[as, january, goe...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|ALTHOUGH elected ...|[although, electe...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|A PORTFOLIO balan...|[a, portfolio, ba...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|ECONOMIC growth r...|[economic, growth...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|WASHINGTON With 2...|[washington, with...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|BERLIN Despite dr...|[berlin, despite,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|Starbucks said Th...|[starbucks, said,...|(50,[0,3,4,5,6,7,...|(50,[0,3,4,5,6,7,...|
+|    1|President Trump t...|[president, trump...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|It began 90 years...|[it, began, 90, y...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|As search cause s...|[as, search, caus...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|In December 2006 ...|[in, december, 20...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|IT prevailing myt...|[it, prevailing, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|WASHINGTON The In...|[washington, the,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|The manufacturer ...|[the, manufacture...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|It amazing Americ...|[it, amazing, ame...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|Americans spent m...|[americans, spent...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|China largest aut...|[china, largest, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|With Washington S...|[with, washington...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|Wall Street edged...|[wall, street, ed...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|Since summer 2011...|[since, summer, 2...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|The New York Time...|[the, new, york, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|LONDON ArcelorMit...|[london, arcelorm...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|SINCE job market ...|[since, job, mark...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|Last September Ap...|[last, september,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|HONG KONG The gia...|[hong, kong, the,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|PARIS Another Fre...|[paris, another, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|Like many America...|[like, many, amer...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|THE slowdown worl...|[the, slowdown, w...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|Another central b...|[another, central...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|The private mortg...|[the, private, mo...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|THE United States...|[the, united, sta...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|Stocks flat Wall ...|[stocks, flat, wa...|(50,[1,2,3,4,5,6,...|(50,[1,2,3,4,5,6,...|
+|    1|WHEN financial cr...|[when, financial,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|Young graduates d...|[young, graduates...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|With House Repres...|[with, house, rep...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|The lighting indu...|[the, lighting, i...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|Facing criticism ...|[facing, criticis...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|TIMOTHY F GEITHNE...|[timothy, f, geit...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|An important gaug...|[an, important, g...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|Stocks driven sha...|[stocks, driven, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|FRANKFURT Bank le...|[frankfurt, bank,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|HONG KONG January...|[hong, kong, janu...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|ECONOMIC REPORTS ...|[economic, report...|(50,[1,2,3,4,5,6,...|(50,[1,2,3,4,5,6,...|
+|    1|To Editor In Abov...|[to, editor, in, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|LONDON Britain ec...|[london, britain,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|TOKYO Japan Thurs...|[tokyo, japan, th...|(50,[0,2,3,4,5,6,...|(50,[0,2,3,4,5,6,...|
+|    1|CHICAGO Jerome H ...|[chicago, jerome,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|The Treasury sche...|[the, treasury, s...|(50,[0,1,2,3,5,6,...|(50,[0,1,2,3,5,6,...|
+|    1|WASHINGTON AP Ord...|[washington, ap, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|The United States...|[the, united, sta...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|WASHINGTON The Fe...|[washington, the,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|Even though Congr...|[even, though, co...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|BETTER late never...|[better, late, ne...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|Stocks dropped Th...|[stocks, dropped,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|WHEN nearly else ...|[when, nearly, el...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|WASHINGTON Jon Le...|[washington, jon,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|WITH drama fiscal...|[with, drama, fis...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|Layoffs touched n...|[layoffs, touched...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|The rapidly escal...|[the, rapidly, es...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|WASHINGTON In fiv...|[washington, in, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|A W Clausen rose ...|[a, w, clausen, r...|(50,[0,1,3,4,5,6,...|(50,[0,1,3,4,5,6,...|
+|    1|WASHINGTON Reuter...|[washington, reut...|(50,[0,1,3,4,5,6,...|(50,[0,1,3,4,5,6,...|
+|    1|A FAMILIAR name M...|[a, familiar, nam...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|WASHINGTON Top ex...|[washington, top,...|(50,[0,1,2,4,5,6,...|(50,[0,1,2,4,5,6,...|
+|    1|PARIS More 197 mi...|[paris, more, 197...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|The big story mar...|[the, big, story,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|In recovery far s...|[in, recovery, fa...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|TOKYO Japan Airli...|[tokyo, japan, ai...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|It years ago econ...|[it, years, ago, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|BRUSSELS A hotly ...|[brussels, a, hot...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|Fresh persuading ...|[fresh, persuadin...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|WASHINGTON A long...|[washington, a, l...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|The North America...|[the, north, amer...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|FOR Colette Haywa...|[for, colette, ha...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|MUMBAI India cent...|[mumbai, india, c...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|The stock bond ma...|[the, stock, bond...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|BRUSSELS Euro zon...|[brussels, euro, ...|(50,[0,2,3,4,5,6,...|(50,[0,2,3,4,5,6,...|
+|    1|INCOME tax rates ...|[income, tax, rat...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|Until smoldering ...|[until, smolderin...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|UNLESS lawmakers ...|[unless, lawmaker...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|The Treasury sche...|[the, treasury, s...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|American Airlines...|[american, airlin...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|TOKYO AP Bowing g...|[tokyo, ap, bowin...|(50,[0,2,3,4,5,6,...|(50,[0,2,3,4,5,6,...|
+|    1|LONDON It would f...|[london, it, woul...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|Johnson Controls ...|[johnson, control...|(50,[0,2,3,5,6,8,...|(50,[0,2,3,5,6,8,...|
+|    1|As financial cris...|[as, financial, c...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|WASHINGTON AP The...|[washington, ap, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|The January rally...|[the, january, ra...|(50,[1,2,3,4,5,6,...|(50,[1,2,3,4,5,6,...|
+|    1|DETROIT Automaker...|[detroit, automak...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|The United States...|[the, united, sta...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|The number Americ...|[the, number, ame...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|A year ago though...|[a, year, ago, th...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|DETROIT Last year...|[detroit, last, y...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|ECONOMIC REPORTS ...|[economic, report...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|WASHINGTON Only a...|[washington, only...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|RYAN CALDBECK stu...|[ryan, caldbeck, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|WASHINGTON Just m...|[washington, just...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|WASHINGTON In Jun...|[washington, in, ...|(50,[0,1,2,4,5,6,...|(50,[0,1,2,4,5,6,...|
+|    1|They gatekeepers ...|[they, gatekeeper...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|Robert C Holland ...|[robert, c, holla...|(50,[0,1,2,3,5,6,...|(50,[0,1,2,3,5,6,...|
+|    1|Two pension funds...|[two, pension, fu...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|IF hoping things ...|[if, hoping, thin...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|Ron Kirk United S...|[ron, kirk, unite...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|The Congressional...|[the, congression...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|Income Taxes Math...|[income, taxes, m...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|McDonald Wednesda...|[mcdonald, wednes...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|IF gathered docum...|[if, gathered, do...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|A federal judge O...|[a, federal, judg...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|LOS ANGELES KFC p...|[los, angeles, kf...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|Will United State...|[will, united, st...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|TOKYO AP Japan ec...|[tokyo, ap, japan...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|WASHINGTON The Fe...|[washington, the,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|WASHINGTON AP Ame...|[washington, ap, ...|(50,[1,2,3,4,5,6,...|(50,[1,2,3,4,5,6,...|
+|    1|The Treasury sche...|[the, treasury, s...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|BEIJING China for...|[beijing, china, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|FRANKFURT Monte d...|[frankfurt, monte...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|LONDON Reuters Gl...|[london, reuters,...|(50,[0,1,2,4,5,6,...|(50,[0,1,2,4,5,6,...|
+|    1|The Federal Aviat...|[the, federal, av...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|WASHINGTON As com...|[washington, as, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|The stock market ...|[the, stock, mark...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|More problems Boe...|[more, problems, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|WASHINGTON Reuter...|[washington, reut...|(50,[2,3,4,5,6,7,...|(50,[2,3,4,5,6,7,...|
+|    1|WE RE beginning h...|[we, re, beginnin...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|TOKYO The governo...|[tokyo, the, gove...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|PEOPLE lost homes...|[people, lost, ho...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|THE numbers seem ...|[the, numbers, se...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|A report growth s...|[a, report, growt...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|DETROIT Chrysler ...|[detroit, chrysle...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|FRANKFURT Nearly ...|[frankfurt, nearl...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|Political gridloc...|[political, gridl...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|United Parcel Ser...|[united, parcel, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|The Dow Jones ind...|[the, dow, jones,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|PASADENA Md THE p...|[pasadena, md, th...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|TAX planning diff...|[tax, planning, d...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|MANILA For 30 yea...|[manila, for, 30,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    1|American Express ...|[american, expres...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|CHARLOTTE N C The...|[charlotte, n, c,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON Presid...|[washington, pres...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|Former President ...|[former, presiden...|(50,[2,3,8,10,13,...|(50,[2,3,8,10,13,...|
+|    2|WASHINGTON Just y...|[washington, just...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON Presid...|[washington, pres...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON Presid...|[washington, pres...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|The following tra...|[the, following, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON Senato...|[washington, sena...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|Representative Pa...|[representative, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON Presid...|[washington, pres...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON Tens t...|[washington, tens...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON Accusi...|[washington, accu...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON Some m...|[washington, some...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|The Rev Greggory ...|[the, rev, greggo...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON The Se...|[washington, the,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON As spe...|[washington, as, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON When M...|[washington, when...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|The following com...|[the, following, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON Their ...|[washington, thei...|(50,[0,1,2,4,5,6,...|(50,[0,1,2,4,5,6,...|
+|    2|WARWICK R I It ha...|[warwick, r, i, i...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|AUSTIN Tex Long l...|[austin, tex, lon...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|The following com...|[the, following, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|President Obama i...|[president, obama...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON Early ...|[washington, earl...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|Barack Michelle O...|[barack, michelle...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|CHARLOTTE N C As ...|[charlotte, n, c,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON Repres...|[washington, repr...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON Voting...|[washington, voti...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|TUCSON Gabrielle ...|[tucson, gabriell...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON The sp...|[washington, the,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON For Pr...|[washington, for,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|Cardiss Collins r...|[cardiss, collins...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|As President Obam...|[as, president, o...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON Jacob ...|[washington, jaco...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON In boo...|[washington, in, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON Severa...|[washington, seve...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON Two ye...|[washington, two,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON A new ...|[washington, a, n...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|MINNEAPOLIS Presi...|[minneapolis, pre...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON In eff...|[washington, in, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON When P...|[washington, when...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON As eig...|[washington, as, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON The Se...|[washington, the,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON For at...|[washington, for,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON If Sen...|[washington, if, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON After ...|[washington, afte...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON When S...|[washington, when...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON The de...|[washington, the,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON Presid...|[washington, pres...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON Presid...|[washington, pres...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON Senato...|[washington, sena...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|On Monday one Vir...|[on, monday, one,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON Presid...|[washington, pres...|(50,[1,2,3,4,5,6,...|(50,[1,2,3,4,5,6,...|
+|    2|WASHINGTON The se...|[washington, the,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON Presid...|[washington, pres...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON Member...|[washington, memb...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON They s...|[washington, they...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON In old...|[washington, in, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|In laying proposa...|[in, laying, prop...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|A brand new conse...|[a, brand, new, c...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON Presid...|[washington, pres...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON Presid...|[washington, pres...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON In pri...|[washington, in, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WILLIAMSBURG Va W...|[williamsburg, va...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|Ross Ramsey execu...|[ross, ramsey, ex...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON Senato...|[washington, sena...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON The co...|[washington, the,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON Senato...|[washington, sena...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON The co...|[washington, the,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON The Se...|[washington, the,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON Senato...|[washington, sena...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON Presid...|[washington, pres...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|LEESBURG Va After...|[leesburg, va, af...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|ORLANDO Fla The s...|[orlando, fla, th...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON Wayne ...|[washington, wayn...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|COUNCIL BLUFFS Io...|[council, bluffs,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|The group met alm...|[the, group, met,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON In fir...|[washington, in, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|MIAMI Two months ...|[miami, two, mont...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON Senate...|[washington, sena...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON For Pr...|[washington, for,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    2|WASHINGTON With H...|[washington, with...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Travis Hafner Yan...|[travis, hafner, ...|(50,[4,6,11,12,13...|(50,[4,6,11,12,13...|
+|    3|NEWARK As delight...|[newark, as, deli...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|PASADENA Calif Th...|[pasadena, calif,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|TORRANCE Calif Th...|[torrance, calif,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|OWINGS MILLS Md B...|[owings, mills, m...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Rafael Nadal over...|[rafael, nadal, o...|(50,[3,5,9,11,13,...|(50,[3,5,9,11,13,...|
+|    3|J T Miller playin...|[j, t, miller, pl...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Ron Fraser longti...|[ron, fraser, lon...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|NEW ORLEANS When ...|[new, orleans, wh...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|As Atlanta Falcon...|[as, atlanta, fal...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Michael Ryder sco...|[michael, ryder, ...|(50,[0,11,16,17,1...|(50,[0,11,16,17,1...|
+|    3|Tyler Seguin Davi...|[tyler, seguin, d...|(50,[0,1,3,7,9,10...|(50,[0,1,3,7,9,10...|
+|    3|It seemed like lo...|[it, seemed, like...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|SCOTTSDALE Ariz A...|[scottsdale, ariz...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Novak Djokovic An...|[novak, djokovic,...|(50,[1,2,3,6,7,10...|(50,[1,2,3,6,7,10...|
+|    3|Negotiations end ...|[negotiations, en...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Spain open Davis ...|[spain, open, dav...|(50,[1,2,4,7,8,17...|(50,[1,2,4,7,8,17...|
+|    3|INDIANAPOLIS Coac...|[indianapolis, co...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|The rookie left t...|[the, rookie, lef...|(50,[1,3,5,6,8,10...|(50,[1,3,5,6,8,10...|
+|    3|PITTSBURGH At Pit...|[pittsburgh, at, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|The game played 1...|[the, game, playe...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|WASHINGTON As Uni...|[washington, as, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|KAPALUA Hawaii On...|[kapalua, hawaii,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Cristiano Ronaldo...|[cristiano, ronal...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|MIAMI GARDENS Fla...|[miami, gardens, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|CARACAS Venezuela...|[caracas, venezue...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Running back Adri...|[running, back, a...|(50,[0,2,7,13,14,...|(50,[0,2,7,13,14,...|
+|    3|With Coach Tito V...|[with, coach, tit...|(50,[0,1,2,4,5,6,...|(50,[0,1,2,4,5,6,...|
+|    3|Rafael Nadal defe...|[rafael, nadal, d...|(50,[1,5,8,10,16,...|(50,[1,5,8,10,16,...|
+|    3|Talks settle N H ...|[talks, settle, n...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|At point season N...|[at, point, seaso...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Henrik Zetterberg...|[henrik, zetterbe...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Atlanta quarterba...|[atlanta, quarter...|(50,[5,6,12,15,22...|(50,[5,6,12,15,22...|
+|    3|PEBBLE BEACH Cali...|[pebble, beach, c...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|There games bigge...|[there, games, bi...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Many N F L teams ...|[many, n, f, l, t...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|An investment gro...|[an, investment, ...|(50,[0,2,3,7,9,10...|(50,[0,2,3,7,9,10...|
+|    3|Catcher first bas...|[catcher, first, ...|(50,[1,8,10,15,16...|(50,[1,8,10,15,16...|
+|    3|In Los Angeles nu...|[in, los, angeles...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|I hope read wrong...|[i, hope, read, w...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|NEW ORLEANSShortl...|[new, orleansshor...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|As balloting Base...|[as, balloting, b...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|NEWARK Cries Let ...|[newark, cries, l...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|For player loss p...|[for, player, los...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|NEW ORLEANS Bill ...|[new, orleans, bi...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Nearly four years...|[nearly, four, ye...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Rafael Nadal beat...|[rafael, nadal, b...|(50,[2,3,4,5,8,9,...|(50,[2,3,4,5,8,9,...|
+|    3|NEW ORLEANS In ma...|[new, orleans, in...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Rory McIlroy rock...|[rory, mcilroy, r...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|The Jets hold sea...|[the, jets, hold,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Defenseman Bryce ...|[defenseman, bryc...|(50,[1,5,15,16,20...|(50,[1,5,15,16,20...|
+|    3|OWINGS MILLS Md F...|[owings, mills, m...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Aston Villa elimi...|[aston, villa, el...|(50,[1,2,5,7,8,9,...|(50,[1,2,5,7,8,9,...|
+|    3|At Cowboys Stadiu...|[at, cowboys, sta...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Baltimore Ravens ...|[baltimore, raven...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|NEW ORLEANS In 19...|[new, orleans, in...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|ROME Near beginni...|[rome, near, begi...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Notre Dame runnin...|[notre, dame, run...|(50,[0,2,3,5,6,8,...|(50,[0,2,3,5,6,8,...|
+|    3|GREEN BAY Wis The...|[green, bay, wis,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|SAN DIEGO The fog...|[san, diego, the,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|The Raiders hired...|[the, raiders, hi...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|NEW ORLEANS When ...|[new, orleans, wh...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Green Bay Packers...|[green, bay, pack...|(50,[2,3,4,5,6,7,...|(50,[2,3,4,5,6,7,...|
+|    3|SOUTH BEND Ind Th...|[south, bend, ind...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|The Tampa Bay Ray...|[the, tampa, bay,...|(50,[0,1,2,4,5,6,...|(50,[0,1,2,4,5,6,...|
+|    3|PACIFIC PALISADES...|[pacific, palisad...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Marc Trestman sma...|[marc, trestman, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|At 2 p Wednesday ...|[at, 2, p, wednes...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|JACKSONVILLE Fla ...|[jacksonville, fl...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Ricardo Santos Po...|[ricardo, santos,...|(50,[1,3,4,5,6,14...|(50,[1,3,4,5,6,14...|
+|    3|CARSON Calif Whil...|[carson, calif, w...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|San Francisco dis...|[san, francisco, ...|(50,[1,3,4,6,7,8,...|(50,[1,3,4,6,7,8,...|
+|    3|Pep Guardiola wor...|[pep, guardiola, ...|(50,[0,1,2,4,5,6,...|(50,[0,1,2,4,5,6,...|
+|    3|Anyone following ...|[anyone, followin...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|NEW ORLEANSFor mo...|[new, orleansfor,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|The Premier Leagu...|[the, premier, le...|(50,[0,1,2,4,5,6,...|(50,[0,1,2,4,5,6,...|
+|    3|FOXBOROUGH Mass I...|[foxborough, mass...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|David Ullstrom sc...|[david, ullstrom,...|(50,[0,1,2,3,5,6,...|(50,[0,1,2,3,5,6,...|
+|    3|BALTIMORE The num...|[baltimore, the, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|SAN DIEGO The Far...|[san, diego, the,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Jamie Hampton fac...|[jamie, hampton, ...|(50,[0,2,3,4,5,6,...|(50,[0,2,3,4,5,6,...|
+|    3|NEW ORLEANS Balti...|[new, orleans, ba...|(50,[0,2,3,4,5,6,...|(50,[0,2,3,4,5,6,...|
+|    3|The Ryder Cup sta...|[the, ryder, cup,...|(50,[4,5,6,10,12,...|(50,[4,5,6,10,12,...|
+|    3|GREENBURGH N Y Wh...|[greenburgh, n, y...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|UNIONDALE N Y It ...|[uniondale, n, y,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|MELBOURNE Austral...|[melbourne, austr...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Swansea completed...|[swansea, complet...|(50,[0,3,4,5,6,7,...|(50,[0,3,4,5,6,7,...|
+|    3|SAN DIEGO AP Tige...|[san, diego, ap, ...|(50,[0,1,2,4,5,6,...|(50,[0,1,2,4,5,6,...|
+|    3|Tiger Woods misse...|[tiger, woods, mi...|(50,[1,4,5,8,9,10...|(50,[1,4,5,8,9,10...|
+|    3|Devils defenseman...|[devils, defensem...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|As college footba...|[as, college, foo...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|At 2008 Beijing O...|[at, 2008, beijin...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|MIAMI GARDENS Fla...|[miami, gardens, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|MELBOURNE AUSTRAL...|[melbourne, austr...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Zach Parise score...|[zach, parise, sc...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|MELBOURNE Austral...|[melbourne, austr...|(50,[0,1,2,4,5,6,...|(50,[0,1,2,4,5,6,...|
+|    3|Brian VanGorder s...|[brian, vangorder...|(50,[1,7,8,9,10,1...|(50,[1,7,8,9,10,1...|
+|    3|Michigan national...|[michigan, nation...|(50,[1,2,3,4,5,6,...|(50,[1,2,3,4,5,6,...|
+|    3|SAN DIEGO For som...|[san, diego, for,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Andrei Markov sco...|[andrei, markov, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|FLORHAM PARK N J ...|[florham, park, n...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|TUCSON The spring...|[tucson, the, spr...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|San Francisco 49e...|[san, francisco, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|NEWARK When Devil...|[newark, when, de...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|FLORHAM PARK N J ...|[florham, park, n...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|NEW ORLEANS San F...|[new, orleans, sa...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Agnieszka Radwans...|[agnieszka, radwa...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|For first time se...|[for, first, time...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|NBC Universal lov...|[nbc, universal, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|NEW ORLEANSCan ag...|[new, orleanscan,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Sunday morning lo...|[sunday, morning,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Cleveland rookie ...|[cleveland, rooki...|(50,[0,2,4,5,8,11...|(50,[0,2,4,5,8,11...|
+|    3|Bernard Tomic Aus...|[bernard, tomic, ...|(50,[0,2,3,5,6,9,...|(50,[0,2,3,5,6,9,...|
+|    3|DETROIT AP The De...|[detroit, ap, the...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|PITTSBURGH In end...|[pittsburgh, in, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|The Minnesota Vik...|[the, minnesota, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|San Francisco off...|[san, francisco, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Trevor Fisher Jr ...|[trevor, fisher, ...|(50,[4,5,6,7,10,1...|(50,[4,5,6,7,10,1...|
+|    3|Top ranked Victor...|[top, ranked, vic...|(50,[1,2,3,6,7,9,...|(50,[1,2,3,6,7,9,...|
+|    3|Serena Williams h...|[serena, williams...|(50,[1,2,3,4,6,9,...|(50,[1,2,3,4,6,9,...|
+|    3|PEBBLE BEACH Cali...|[pebble, beach, c...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|SAN PEDRO SULA Ho...|[san, pedro, sula...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|JEFFERSON La He l...|[jefferson, la, h...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|The equipment van...|[the, equipment, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|MELBOURNE Austral...|[melbourne, austr...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Stephen Gallacher...|[stephen, gallach...|(50,[1,2,4,5,7,8,...|(50,[1,2,4,5,7,8,...|
+|    3|Ilya Kovalchuk Da...|[ilya, kovalchuk,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|For nearly decade...|[for, nearly, dec...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Selectors Pro Foo...|[selectors, pro, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|NEW ORLEANS Alex ...|[new, orleans, al...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|NEW ORLEANS Back ...|[new, orleans, ba...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|MELBOURNE Austral...|[melbourne, austr...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|The Yankees appar...|[the, yankees, ap...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|ATLANTA Through 2...|[atlanta, through...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|LA QUINTA Calif T...|[la, quinta, cali...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Well group led Gu...|[well, group, led...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|VANCOUVER British...|[vancouver, briti...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|The Washington Re...|[the, washington,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|The Pittsburgh St...|[the, pittsburgh,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Gussie Moran rank...|[gussie, moran, r...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Next football sea...|[next, football, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|The Washington Na...|[the, washington,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|The left hander B...|[the, left, hande...|(50,[1,6,7,9,10,1...|(50,[1,6,7,9,10,1...|
+|    3|Manchester City k...|[manchester, city...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Earl Williams slu...|[earl, williams, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|LA QUINTA Calif R...|[la, quinta, cali...|(50,[0,1,3,4,5,7,...|(50,[0,1,3,4,5,7,...|
+|    3|One corporate law...|[one, corporate, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|The German men be...|[the, german, men...|(50,[0,2,7,8,10,1...|(50,[0,2,7,8,10,1...|
+|    3|FOXBOROUGH Mass T...|[foxborough, mass...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|The trade deadlin...|[the, trade, dead...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Italy top soccer ...|[italy, top, socc...|(50,[1,4,7,8,9,13...|(50,[1,4,7,8,9,13...|
+|    3|After European po...|[after, european,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|ST PETERSBURG Fla...|[st, petersburg, ...|(50,[0,1,2,4,5,9,...|(50,[0,1,2,4,5,9,...|
+|    3|OWINGS MILLS Md W...|[owings, mills, m...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Ladies gentlemen ...|[ladies, gentleme...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|LUTHERVILLE Md Th...|[lutherville, md,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|The United States...|[the, united, sta...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Coach Luiz Felipe...|[coach, luiz, fel...|(50,[0,5,6,7,8,9,...|(50,[0,5,6,7,8,9,...|
+|    3|On eve Lance Arms...|[on, eve, lance, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Ilya Kovalchuk sc...|[ilya, kovalchuk,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|NEW ORLEANS For n...|[new, orleans, fo...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Rocco Mediate sho...|[rocco, mediate, ...|(50,[2,4,7,8,10,1...|(50,[2,4,7,8,10,1...|
+|    3|The St Louis Blue...|[the, st, louis, ...|(50,[1,3,4,6,8,10...|(50,[1,3,4,6,8,10...|
+|    3|The United States...|[the, united, sta...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|ATLANTA For two h...|[atlanta, for, tw...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|NEW ORLEANS It Ne...|[new, orleans, it...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|GREENBURGH N Y Br...|[greenburgh, n, y...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Varvara Lepchenko...|[varvara, lepchen...|(50,[2,3,4,5,7,9,...|(50,[2,3,4,5,7,9,...|
+|    3|It often sports n...|[it, often, sport...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|MIAMI Revive Miam...|[miami, revive, m...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|There telling man...|[there, telling, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|It pretty Michael...|[it, pretty, mich...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|BALTIMORE If Harr...|[baltimore, if, h...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Rocco Mediate sho...|[rocco, mediate, ...|(50,[2,4,6,7,8,11...|(50,[2,4,6,7,8,11...|
+|    3|The Giants contin...|[the, giants, con...|(50,[0,1,4,5,6,9,...|(50,[0,1,4,5,6,9,...|
+|    3|HOUSTON Steelers ...|[houston, steeler...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Red Sox General M...|[red, sox, genera...|(50,[2,8,9,10,12,...|(50,[2,8,9,10,12,...|
+|    3|HOUSTON All week ...|[houston, all, we...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|The United States...|[the, united, sta...|(50,[0,2,3,4,5,7,...|(50,[0,2,3,4,5,7,...|
+|    3|NEW YORK AP Relie...|[new, york, ap, r...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|EDEN PRAIRIE Minn...|[eden, prairie, m...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Seydou Keita ensu...|[seydou, keita, e...|(50,[0,1,2,4,5,6,...|(50,[0,1,2,4,5,6,...|
+|    3|When Super Bowl N...|[when, super, bow...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|This week unfamil...|[this, week, unfa...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Rafael Nadal firs...|[rafael, nadal, f...|(50,[0,5,12,13,16...|(50,[0,5,12,13,16...|
+|    3|Matt Moulson Mich...|[matt, moulson, m...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|PEBBLE BEACH Cali...|[pebble, beach, c...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|SAN FRANCISCO The...|[san, francisco, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|PEBBLE BEACH Cali...|[pebble, beach, c...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Paul McGinley cho...|[paul, mcginley, ...|(50,[0,3,4,5,8,9,...|(50,[0,3,4,5,8,9,...|
+|    3|Caroline Hedwall ...|[caroline, hedwal...|(50,[0,2,4,7,8,9,...|(50,[0,2,4,7,8,9,...|
+|    3|Rafael Nadal aili...|[rafael, nadal, a...|(50,[0,1,5,7,8,9,...|(50,[0,1,5,7,8,9,...|
+|    3|The Yankees manag...|[the, yankees, ma...|(50,[0,2,3,7,8,9,...|(50,[0,2,3,7,8,9,...|
+|    3|NEW ORLEANS Just ...|[new, orleans, ju...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Wind squalls howl...|[wind, squalls, h...|(50,[1,4,8,14,18,...|(50,[1,4,8,14,18,...|
+|    3|Among gathered Ma...|[among, gathered,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|LaTroy Hawkins 40...|[latroy, hawkins,...|(50,[3,4,5,8,9,10...|(50,[3,4,5,8,9,10...|
+|    3|Once darlings Coo...|[once, darlings, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|SAN DIEGO Torrey ...|[san, diego, torr...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|EL SEGUNDO Calif ...|[el, segundo, cal...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|The N H L suspend...|[the, n, h, l, su...|(50,[1,2,3,5,6,8,...|(50,[1,2,3,5,6,8,...|
+|    3|FOXBOROUGH Mass B...|[foxborough, mass...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|So many things mu...|[so, many, things...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Lionel Messi beca...|[lionel, messi, b...|(50,[1,2,4,5,6,7,...|(50,[1,2,4,5,6,7,...|
+|    3|FOXBOROUGH Mass M...|[foxborough, mass...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Winter come vast ...|[winter, come, va...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Forward Diego Cos...|[forward, diego, ...|(50,[1,4,5,8,10,1...|(50,[1,4,5,8,10,1...|
+|    3|TAMPA Fla The jux...|[tampa, fla, the,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|MELBOURNE Austral...|[melbourne, austr...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Louisville defend...|[louisville, defe...|(50,[0,5,6,11,13,...|(50,[0,5,6,11,13,...|
+|    3|Let us first welc...|[let, us, first, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Four players 2009...|[four, players, 2...|(50,[0,1,2,4,5,8,...|(50,[0,1,2,4,5,8,...|
+|    3|When Ray Lewis an...|[when, ray, lewis...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|OWINGS MILLS Md T...|[owings, mills, m...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Nigeria first Afr...|[nigeria, first, ...|(50,[0,2,3,4,5,6,...|(50,[0,2,3,4,5,6,...|
+|    3|Pete Elliott Amer...|[pete, elliott, a...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Abby Wambach scor...|[abby, wambach, s...|(50,[0,2,4,5,6,7,...|(50,[0,2,4,5,6,7,...|
+|    3|After season dete...|[after, season, d...|(50,[0,1,2,4,5,6,...|(50,[0,1,2,4,5,6,...|
+|    3|BALTIMORE As Rave...|[baltimore, as, r...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|NEW ORLEANS Two d...|[new, orleans, tw...|(50,[0,1,2,4,5,7,...|(50,[0,1,2,4,5,7,...|
+|    3|David Krejci scor...|[david, krejci, s...|(50,[7,12,13,14,1...|(50,[7,12,13,14,1...|
+|    3|HOUSTON The quest...|[houston, the, qu...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|FOXBOROUGH Mass T...|[foxborough, mass...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|PEBBLE BEACH Cali...|[pebble, beach, c...|(50,[0,2,3,4,5,7,...|(50,[0,2,3,4,5,7,...|
+|    3|The former Americ...|[the, former, ame...|(50,[2,3,4,5,7,9,...|(50,[2,3,4,5,7,9,...|
+|    3|HOUSTON The Texan...|[houston, the, te...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|CLEVELAND The gra...|[cleveland, the, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Most members Pro ...|[most, members, p...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|OWINGS MILLS Md I...|[owings, mills, m...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|NEW ORLEANS Just ...|[new, orleans, ju...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|John Gaudreau hat...|[john, gaudreau, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|SYOSSET N Y Only ...|[syosset, n, y, o...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|NEW ORLEANS While...|[new, orleans, wh...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|NEW ORLEANS Jim H...|[new, orleans, ji...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|NEW ORLEANS For H...|[new, orleans, fo...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|FOXBOROUGH Mass N...|[foxborough, mass...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|SANTA CLARA Calif...|[santa, clara, ca...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|The N F L present...|[the, n, f, l, pr...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|PHOENIX Joe Green...|[phoenix, joe, gr...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Brian Cashman Yan...|[brian, cashman, ...|(50,[0,1,6,7,8,9,...|(50,[0,1,6,7,8,9,...|
+|    3|The players gathe...|[the, players, ga...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|The taut drama Wo...|[the, taut, drama...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|MELBOURNE Austral...|[melbourne, austr...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Second baseman Da...|[second, baseman,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Negotiations end ...|[negotiations, en...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|The family Junior...|[the, family, jun...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|FOXBOROUGH Mass M...|[foxborough, mass...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|The Red Bulls tra...|[the, red, bulls,...|(50,[0,3,4,7,10,1...|(50,[0,3,4,7,10,1...|
+|    3|EDMONTON Alberta ...|[edmonton, albert...|(50,[0,1,2,3,4,6,...|(50,[0,1,2,3,4,6,...|
+|    3|In move engineere...|[in, move, engine...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|DESTREHAN La This...|[destrehan, la, t...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|CHARLOTTESVILLE V...|[charlottesville,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|East Rutherford N...|[east, rutherford...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|DENVER In Peyton ...|[denver, in, peyt...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|LONDON For club c...|[london, for, clu...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Gareth Bale score...|[gareth, bale, sc...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|CLEVELAND Wheneve...|[cleveland, whene...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|MINNEAPOLIS At pr...|[minneapolis, at,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|With 8 million wo...|[with, 8, million...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|While Monday Supe...|[while, monday, s...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|DENVER The Denver...|[denver, the, den...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|John Isner Sam Qu...|[john, isner, sam...|(50,[0,1,3,4,5,6,...|(50,[0,1,3,4,5,6,...|
+|    3|Major League Base...|[major, league, b...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|The Russian club ...|[the, russian, cl...|(50,[1,2,3,6,8,10...|(50,[1,2,3,6,8,10...|
+|    3|SANTA CLARA Calif...|[santa, clara, ca...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Chelsea leapfrogg...|[chelsea, leapfro...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Brandt Snedeker g...|[brandt, snedeker...|(50,[1,3,5,6,7,8,...|(50,[1,3,5,6,7,8,...|
+|    3|LANDOVER Md Marsh...|[landover, md, ma...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|There two N F L g...|[there, two, n, f...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|NEW ORLEANS Jacob...|[new, orleans, ja...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Alexander Steen s...|[alexander, steen...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Mark Sanchez whoe...|[mark, sanchez, w...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|DENVER At 5 feet ...|[denver, at, 5, f...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|For coaches N F L...|[for, coaches, n,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|The Islanders don...|[the, islanders, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|The back spinning...|[the, back, spinn...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Chris Wood eagled...|[chris, wood, eag...|(50,[2,3,4,9,10,1...|(50,[2,3,4,9,10,1...|
+|    3|Lavonne Paire Dav...|[lavonne, paire, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|For second time w...|[for, second, tim...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|OWINGS MILLS Md B...|[owings, mills, m...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Didier Drogba tea...|[didier, drogba, ...|(50,[0,2,3,4,5,6,...|(50,[0,2,3,4,5,6,...|
+|    3|Antrel Rolle play...|[antrel, rolle, p...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|SAN DIEGO And Bre...|[san, diego, and,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|The United States...|[the, united, sta...|(50,[0,1,3,4,5,6,...|(50,[0,1,3,4,5,6,...|
+|    3|OWINGS MILLS Md J...|[owings, mills, m...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|Barcelona lost fi...|[barcelona, lost,...|(50,[0,2,4,5,6,7,...|(50,[0,2,4,5,6,7,...|
+|    3|SAN DIEGO There s...|[san, diego, ther...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|MELBOURNE Austral...|[melbourne, austr...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|MIAMI GARDENS Fla...|[miami, gardens, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|The 2020 United S...|[the, 2020, unite...|(50,[4,5,7,9,10,1...|(50,[4,5,7,9,10,1...|
+|    3|Caroline Wozniack...|[caroline, woznia...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    3|ATLANTA Colin Kae...|[atlanta, colin, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|The Americans new...|[the, americans, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|The Last New Wave...|[the, last, new, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|Since recording f...|[since, recording...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|8 30 P M 13 AT TH...|[8, 30, p, m, 13,...|(50,[0,2,3,4,5,6,...|(50,[0,2,3,4,5,6,...|
+|    4|The motto Met Mus...|[the, motto, met,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|8 P M HGTV COUSIN...|[8, p, m, hgtv, c...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|Donald Byrd one l...|[donald, byrd, on...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|In mid 2000s Mala...|[in, mid, 2000s, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|MoviesRatings run...|[moviesratings, r...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|8 P M CBS THE 55T...|[8, p, m, cbs, th...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|4 30 P M HBO Sign...|[4, 30, p, m, hbo...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|SANTA MONICA Cali...|[santa, monica, c...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|8 P M NBC THE 44T...|[8, p, m, nbc, th...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|Paul Tanner forme...|[paul, tanner, fo...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|EARLY new Netflix...|[early, new, netf...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|3 P M TCM CAMELOT...|[3, p, m, tcm, ca...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|Classical Full re...|[classical, full,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|ClassicalFull rev...|[classicalfull, r...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|ANDY WARHOL creat...|[andy, warhol, cr...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|IN Legit new come...|[in, legit, new, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|A drone sustained...|[a, drone, sustai...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|PARIS The actress...|[paris, the, actr...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|Years ago Atlanta...|[years, ago, atla...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|FOR show title wo...|[for, show, title...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|At time President...|[at, time, presid...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|8 P M Lifetime PR...|[8, p, m, lifetim...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|Mozart wrote seve...|[mozart, wrote, s...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|Movies Ratings ru...|[movies, ratings,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|HAVANA Sebastián ...|[havana, sebastiá...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|The title latest ...|[the, title, late...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|8 P M Sundance SE...|[8, p, m, sundanc...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|THAT A STRING QUA...|[that, a, string,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|A year ago premie...|[a, year, ago, pr...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|James Brown Soul ...|[james, brown, so...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|After conducting ...|[after, conductin...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|Imagine Grammy Aw...|[imagine, grammy,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|LOS ANGELESMICKEY...|[los, angelesmick...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|We lousy Sherlock...|[we, lousy, sherl...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|Butch Morris crea...|[butch, morris, c...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|What hallmarks gr...|[what, hallmarks,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|What difference c...|[what, difference...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|SAN FRANCISCOA FE...|[san, franciscoa,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|On recent cold ra...|[on, recent, cold...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|8 P M Sundance IN...|[8, p, m, sundanc...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|In 2008 Allison W...|[in, 2008, alliso...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|JERUSALEM The Osc...|[jerusalem, the, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|Pop Prices may re...|[pop, prices, may...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|YO LA TENGO Fade ...|[yo, la, tengo, f...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|The blunt title N...|[the, blunt, titl...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|My sights set swi...|[my, sights, set,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|PARK CITY Utah Is...|[park, city, utah...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|Cardi B two break...|[cardi, b, two, b...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|The Weeknd opened...|[the, weeknd, ope...|(50,[0,2,4,5,6,7,...|(50,[0,2,4,5,6,7,...|
+|    4|LOS ANGELES On Gr...|[los, angeles, on...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|BUDDY MILLER AND ...|[buddy, miller, a...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|NEWARK Jacques La...|[newark, jacques,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|In meticulously c...|[in, meticulously...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|LOS ANGELES At on...|[los, angeles, at...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|Early premiere Re...|[early, premiere,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|                  tk|                [tk]|     (50,[35],[1.0])|(50,[35],[0.09276...|
+|    4|The ninth annual ...|[the, ninth, annu...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|A songs Mumford S...|[a, songs, mumfor...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|Petra HadenThe ex...|[petra, hadenthe,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|8 30 P M Sundance...|[8, 30, p, m, sun...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|You might contain...|[you, might, cont...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|Stanley Karnow Pu...|[stanley, karnow,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|WHENEVER Children...|[whenever, childr...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|4 P M TMC SERENIT...|[4, p, m, tmc, se...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|Patty Andrews las...|[patty, andrews, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|SQUAMISH British ...|[squamish, britis...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|Jazz Full reviews...|[jazz, full, revi...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|PARAMUS N J AP To...|[paramus, n, j, a...|(50,[0,1,4,5,6,7,...|(50,[0,1,4,5,6,7,...|
+|    4|NOT long ago acto...|[not, long, ago, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|WHAT cable channe...|[what, cable, cha...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|8 P M NBC THE 70T...|[8, p, m, nbc, th...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|Conrad Bain accom...|[conrad, bain, ac...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|Robert F Chew act...|[robert, f, chew,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|TRIXIE WHITLEY Fo...|[trixie, whitley,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|8 P M Showtime TH...|[8, p, m, showtim...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|The Vienna Philha...|[the, vienna, phi...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|A lot time discus...|[a, lot, time, di...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|THE Brooklyn docu...|[the, brooklyn, d...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|PARK CITY Utah It...|[park, city, utah...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|John Kerr Tony Aw...|[john, kerr, tony...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|Leroy Bonner fron...|[leroy, bonner, f...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|11 P M Reelz THE ...|[11, p, m, reelz,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|More apparition b...|[more, apparition...|(50,[0,1,2,3,5,6,...|(50,[0,1,2,3,5,6,...|
+|    4|Canals run Lincol...|[canals, run, lin...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|9 P M OWN OPRAH A...|[9, p, m, own, op...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|Given success Aus...|[given, success, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|ONE first things ...|[one, first, thin...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|9 P M 13 L ELISIR...|[9, p, m, 13, l, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|When musicians pl...|[when, musicians,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|9 P M 13 49 HENRY...|[9, p, m, 13, 49,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|IN film Luv openi...|[in, film, luv, o...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|Joseph Eger Frenc...|[joseph, eger, fr...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|WHEN moviegoers l...|[when, moviegoers...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|FöllakzoidChilean...|[föllakzoidchilea...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|Gaping holes deli...|[gaping, holes, d...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|Jazz Full reviews...|[jazz, full, revi...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|In second week Bl...|[in, second, week...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|Part movie guide ...|[part, movie, gui...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|Ben Affleck said ...|[ben, affleck, sa...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|1 30 P M IFC ABOU...|[1, 30, p, m, ifc...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|Harry Carey Jr ac...|[harry, carey, jr...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|BEVERLY HILLS Cal...|[beverly, hills, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|With stately brow...|[with, stately, b...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|This article Hous...|[this, article, h...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|SAN FRANCISCO Hou...|[san, francisco, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|Movies Ratings ru...|[movies, ratings,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|The original tele...|[the, original, t...|(50,[1,4,5,6,7,8,...|(50,[1,4,5,6,7,8,...|
+|    4|PopPrices may ref...|[popprices, may, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|PARK CITY Utah Da...|[park, city, utah...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|Pop Prices may re...|[pop, prices, may...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|Pop Prices may re...|[pop, prices, may...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|BEVERLY HILLS Cal...|[beverly, hills, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|There time long a...|[there, time, lon...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|3 P M Animal Plan...|[3, p, m, animal,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|THE MUSICIAN JIM ...|[the, musician, j...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|9 P M NBC LAW ORD...|[9, p, m, nbc, la...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|10 P M IFC PORTLA...|[10, p, m, ifc, p...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|THE singer José J...|[the, singer, jos...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|8 P M ABC THE BAC...|[8, p, m, abc, th...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|Jersey Shore ende...|[jersey, shore, e...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|A full fledged wi...|[a, full, fledged...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|In fall 2006 Ken ...|[in, fall, 2006, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|THE STANDARD LINE...|[the, standard, l...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|Jazz Full reviews...|[jazz, full, revi...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|9 P M 13 10 P M 4...|[9, p, m, 13, 10,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|At time seems eve...|[at, time, seems,...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|You underestimate...|[you, underestima...|(50,[0,2,3,4,5,6,...|(50,[0,2,3,4,5,6,...|
+|    4|Any writer knows ...|[any, writer, kno...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|Beethoven Ninth S...|[beethoven, ninth...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|Can one astoundin...|[can, one, astoun...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|8 P M NBC 30 ROCK...|[8, p, m, nbc, 30...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|LOS ANGELES When ...|[los, angeles, wh...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|The answer puzzle...|[the, answer, puz...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|NO one dominates ...|[no, one, dominat...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|In inspired gestu...|[in, inspired, ge...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|8 P M Lifetime BE...|[8, p, m, lifetim...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|For moment Christ...|[for, moment, chr...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|Jazz Full reviews...|[jazz, full, revi...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|All symbolic weig...|[all, symbolic, w...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|The Sundance Film...|[the, sundance, f...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|MontrealTAKING Br...|[montrealtaking, ...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|NOT boys Girls fi...|[not, boys, girls...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
+|    4|CULVER CITY Calif...|[culver, city, ca...|(50,[0,1,2,3,4,5,...|(50,[0,1,2,3,4,5,...|
++-----+--------------------+--------------------+--------------------+--------------------+
+

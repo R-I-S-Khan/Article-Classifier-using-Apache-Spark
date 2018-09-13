@@ -1,0 +1,5 @@
+
+cd spark
+./bin/spark-submit /home/hadoop/DICLab3/487Lab3/part1/src/titanic_spark.py
+./bin/spark-submit /home/hadoop/DICLab3/487Lab3/spark/tf_idf.py 
+./bin/spark-submit /home/hadoop/DICLab3/487Lab3/spark/tf_idf_feature_extract.py 

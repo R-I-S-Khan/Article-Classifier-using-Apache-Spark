@@ -1,0 +1,3 @@
+NaiveBayes model accuracy 0.560538116592
+RandomForest model accuracy 0.591928251121
+Class label IDs: Business = 0, Sports = 1, Politics = 2, Entertainment = 3
